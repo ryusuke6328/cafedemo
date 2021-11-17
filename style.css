@@ -1,0 +1,289 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.content-wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.header-image{
+    position:relative;
+    width: 100%;
+    height: 600px;
+    min-height: 300px;
+    border-bottom-right-radius: 2000px 100px;
+    border-bottom-left-radius: 2000px 100px;
+    margin-left: -200px;
+    margin-right: -200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.header-wrapper{
+}
+.nav-menu{
+    position:absolute;
+    top:0px;
+    right:20px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100;
+}
+.nav-menu li{
+    padding: 40px 30px 20px 25px;
+    list-style: none;
+}
+.nav-menu li a{
+    color:white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.header-logo{
+    transform:scale(0.5);
+    z-index: 70;
+    position:absolute;
+    top: 5px;
+    left: -40px;
+}
+.first-wrapper{
+    text-align: center;
+    background-color: #F2EFFB;
+    padding-bottom: 110px;
+}
+.first-wrapper h1{
+    text-align: center;
+    font-size:3em;
+    font-weight: normal;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;;
+}
+.first-text p{
+    display: inline-block;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 1.3em;
+}
+
+.text-logo{
+    width: 210px;
+    height: 60px;
+    padding: 20px 0 20px 70px;
+}
+.product-wrapper{
+    width: 800px;
+    padding-bottom: 110px;
+    margin: 0 auto;
+}
+.product-logo{
+    display: inline-block;
+    margin: 100px auto  0 0;
+    font-size: 2em;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    position: relative;
+}
+.logo-line{
+    position:absolute;
+    top:80px;
+    width: 60px;
+}
+.more-button{
+    border:1px solid black;
+    display: inline-block;
+    margin-left: 460px;
+    width: 160px;
+    position:relative
+}
+.more-button a{
+    display: block;
+    padding: 10px 50px 10px 50px;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8em;
+}
+.more-button a::after{
+    content:"";
+    position: absolute;
+    right:10px;
+    top:17px;
+    width: 8px;
+    height: 8px;
+    color: white;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    transform:rotate(45deg) ;
+}
+.more-button a:hover{
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+}
+.more-button a:hover::after{
+    border-top:2px solid white;
+    border-right:2px solid white;
+}
+.mein-product{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.card-wrapper{
+    width: 240px;
+    margin-top: 75px;
+}
+.card-img{
+    width: 240px;
+    height: 330px;
+}
+.bottom-text{
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 20px;
+    font-family: "Gill Sans Std Book", sans-serif;
+    color: #000;
+    opacity: 0.8;
+    width: 200px;
+    text-align: center;
+}
+.card-wrapper a{
+    text-decoration: none;
+}
+.card-wrapper:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.news-wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+.feed-wrapper{
+    margin-top: 75px;
+    margin-bottom: 60px;
+    height: 260px;
+}
+.feed-img{
+    width: 320px;
+    height: 180px;
+    float:left;
+    border-radius: 10px;
+}
+.description{
+    width: 450px;
+    float:right;
+    margin-top: -20px;
+    color: black;
+}
+.feed-wrapper h3{
+    opacity: 0.8;
+}
+.feed-wrapper p{
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+.feed-wrapper:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.fa-chevron-up{
+    color:gray;
+    z-index: 100;
+}
+.top-button{
+    text-align: center;
+}
+.sns-button{
+    border:1px solid #0040FF;
+    margin: 30px;
+    width: 160px;
+    height: 45px;
+    padding: 10px 10px -10px 10px;
+    position: relative;
+}
+.sns-button a{
+    color:#0040FF;
+    text-decoration: none;
+    font-size: 0.8em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    left: 3px;
+    top: 12px;
+    letter-spacing: 1px;
+}
+.contact-wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    width: 100%;
+}
+.facebook:hover{
+    background-color:#2E64FE;
+    cursor: pointer;
+    color: whitesmoke;
+    transition:0.5s;
+}
+.contact-wrapper a:hover{
+    color: whitesmoke;
+}
+.twitter:hover{
+    background-color:#81DAF5;
+    cursor: pointer;
+    color: whitesmoke;
+    transition:0.5s;
+}
+.hatena:hover{
+    background-color:#A9F5E1;
+    cursor: pointer;
+    color: whitesmoke;
+    transition:0.5s;
+}
+.reverse{
+    background-color: #848484;
+    height: 85px;
+}
+.reverse ul{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.reverse ul li{
+    color: white;
+    text-align: center;
+    margin: auto 25px;
+    list-style: none;
+    transform: scale(0.9);
+
+}
+.reverse ul li a{
+    color: white;
+    text-decoration: none;
+}
+.reverse ul li a:hover{
+    opacity: 0.8;
+    transition:0.5s;
+}
+footer{
+    height: 160px;
+    display: flex;
+    background-color: #656c6e;
+}
+.footer-logo{
+    transform: scale(0.5);
+    margin-left: 260px;
+}
+footer p{
+    color:white;
+    margin-top: 65px;
+    opacity: 0.9;
+    transform:scale(0.65)
+}
+.hamburger-menu{
+    display: none;
+}
+
+
+
+
